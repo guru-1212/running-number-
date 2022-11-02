@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: black;
+        
+    }
+    h1{
+        font-size: 100px;
+        color: white;
+    }
+</style>
+
+<body onload="onll()" >
+    <h1 id="para"></h1>
+    <script>
+        // var a= [1,2,3,4,5,6];
+        // function squre(x){
+        //     return x**2
+        // }
+        // function even(y){
+        //    return y%2==0;
+        // }
+        // function odd(x){
+        //     return x%2;
+        // }
+        // var map = a.map(squre)
+        // console.log(map);
+
+        // var map = a.filter(even)
+        // console.log(map);
+
+        // var map = a.filter(odd)
+        // console.log(map);
+        // var interval = setInterval(readvalue,9000);
+        // function readvalue(){
+        //     for(i=0;i<=100;i++){
+        //        var c= document.getElementById("count");
+        //        c.innerHTML=i;
+        //     }
+        // }
+        // var a = {
+        //     one:"two",
+        //     two:"three",
+        //     three:"four"
+        // };
+
+        // console.log(Object.entries(a));
+           
+           function onll(){
+            for(let i = 0; i<=10000 ; i++){
+                setTimeout(function(){
+                   document.getElementById("para").innerHTML=i
+                  
+                    
+                },i*150);
+
+               
+            }
+           
+           }
+          
+
+
+        // function onll(){
+            
+        //   document.getElementById("prog").style.color="red";
+        // }
+
+
+           
+        // var a = document.getElementById("progress");
+        // a.style.width="100"
+
+
+
+    
+       
+    </script>
+   
+</body>
+
+</html>
